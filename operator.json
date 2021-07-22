@@ -1,6 +1,6 @@
 {
-  "name": "lagpad operator",
-  "description": "Computes a lagged version of a data series along columns, shifting the data back by a given number of observations.",
+  "name": "Lagpad",
+  "description": "Computes a lagged version of a data series along columns; shifting the data back by a given number of observations.",
   "tags": ["data wrangling"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/lagpad_operator"],
