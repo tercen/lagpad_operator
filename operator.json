@@ -1,17 +1,21 @@
 {
   "name": "Lagpad",
   "description": "Computes a lagged version of a data series along columns; shifting the data back by a given number of observations.",
-  "tags": ["data wrangling"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/lagpad_operator"],
+  "tags": [
+    "preprocessing"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/lagpad_operator"
+  ],
   "properties": [
-   {
-    "kind": "DoubleProperty",
-    "name": "k",
-    "defaultValue": 1,
-    "description": "The number of lags (in units of observations corresponding to columns)."
+    {
+      "kind": "DoubleProperty",
+      "name": "k",
+      "defaultValue": 1,
+      "description": "The number of lags (in units of observations corresponding to columns)."
     }
   ]
 }
-
-
