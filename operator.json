@@ -28,6 +28,16 @@
         "metaFactors": [
           {
             "kind": "MetaFactor",
+            "name": "Row",
+            "type": "",
+            "description": "Optional row factor.",
+            "ontologyMapping": "row",
+            "crosstabMapping": "row",
+            "cardinality": "0..n",
+            "factors": []
+          },
+          {
+            "kind": "MetaFactor",
             "name": "Units of Observation",
             "type": "",
             "description": "Factor representing units of observations.",
