@@ -65,6 +65,38 @@
           }
         ]
       }
+    ],
+    "outputSpecsV2": [
+      {
+        "kind": "OperatorJoinSpec",
+        "joinOperators": [
+          {
+            "kind": "JoinOperator",
+            "joinType": "left",
+            "leftPair": {
+              "kind": "ColumnPair",
+              "lColumns": [
+                "Row",
+                "Units of Observation"
+              ],
+              "rColumns": [
+                "Row",
+                "Units of Observation"
+              ]
+            },
+            "rightRelation": {
+              "kind": "TableRelation",
+              "attributes": [
+                {
+                  "kind": "Attribute",
+                  "name": "lagged",
+                  "type": "double"
+                }
+              ]
+            }
+          }
+        ]
+      }
     ]
   }
 }
