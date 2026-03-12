@@ -54,7 +54,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Data Series",
-                "type": "numeric",
+                "type": "double",
                 "description": "Data series to be lagged.",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
